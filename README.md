@@ -76,7 +76,7 @@ To run the project using Docker, follow these steps:
 2.  **Run the Docker container**:
     
     ```bash
-    docker run -p 3000:3000 pokemon
+    docker run -p 3000:3000 -d pokemon
     ```
 3.  Once the containers are up, access the website at `http://localhost:3000`.
     
