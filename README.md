@@ -3,15 +3,19 @@
 This project is a Pokémon-themed website built with React and containerized using Docker. It leverages the Pokémon API to allow users to select areas, explore locations, and engage in Pokémon battles. The goal is to provide a fun and interactive experience for Pokémon fans.
 
 ## Table of Contents
-1. [Project Overview](#project-overview)
-2. [Features](#features)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Docker Setup](#docker-setup)
-6. [Screenshots](#screenshots)
-7. [API Information](#api-information)
-8. [Contributors](#contributors)
-9. [License](#license)
+- [Fetch the Pokemon](#fetch-the-pokemon)
+  - [Table of Contents](#table-of-contents)
+  - [Project Overview](#project-overview)
+  - [Features](#features)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Docker Setup](#docker-setup)
+  - [Screenshots](#screenshots)
+    - [Area Selection](#area-selection)
+    - [Pokémon Battle](#pokémon-battle)
+  - [API Information](#api-information)
+  - [Contributors](#contributors)
+  - [License](#license)
 
 ---
 
@@ -64,12 +68,17 @@ The website will be available at `http://localhost:3000`.
 
 To run the project using Docker, follow these steps:
 
-1.  **Build and run the Docker containers**:
+1.  **Build the Docker image**:
     
     ```bash
-    docker-compose up --build 
+    docker build -t pokemon .
     ```
-2.  Once the containers are up, access the website at `http://localhost:3000`.
+2.  **Run the Docker container**:
+    
+    ```bash
+    docker run -p 3000:3000 pokemon
+    ```
+3.  Once the containers are up, access the website at `http://localhost:3000`.
     
 
 ----------
