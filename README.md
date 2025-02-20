@@ -18,6 +18,10 @@ This project is a Pokémon-themed website built with React and containerized usi
   - [License](#license)
 
 ---
+## Technologies Used
+  - [![React][React.js]][React-url]
+  - [![Docker][Docker-shield]][Docker-url]
+
 
 ## Project Overview
 
@@ -39,7 +43,7 @@ To install and run the project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Nuubshybot/fetch-the-pokemon.git
+   git clone https://github.com/Attila112/fetch-the-pokemon.git
    cd pokemon-website 
     ```
 2.  **Install dependencies**:
@@ -107,3 +111,9 @@ This project uses the [PokéAPI](https://pokeapi.co/) to retrieve Pokémon data.
 
 ## License
 This project is licensed under the MIT License.
+
+
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Docker-shield]:https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white
+[Docker-url]:https://www.docker.com/
